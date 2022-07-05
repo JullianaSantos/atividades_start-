@@ -1,0 +1,33 @@
+body{
+    background: black;
+    height: 90vh;
+   
+      
+}
+h1{
+    color:white;
+    width: center;
+    text-align: center; 
+}
+h3{
+    color: white;
+    text-align: center; 
+}
+
+pre{
+    color: white;
+    width: -25px;
+    text-align: center; 
+}
+#imagem{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: -310px;
+    
+}
+
+img{
+    width: 200px;
+    height: -200px;
+}
