@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background:#E6E6FA;
+    height: 50vh;
+}
+table{
+    text-align: center;
+    margin-left: 28%;
+    margin-bottom: 10%;
+    
+}
+#carros{
+    margin-left: 39.5%;
+}
+
+#imagem{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: -390px;
+ 
+}
+
+img{
+    width: 200px;
+    height: 20;
+
+}
+#nometable{
+    background-color: #a085d7;
+}
+
+.nan{
+    background-color:#a897cb;
+}
