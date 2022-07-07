@@ -1,0 +1,15 @@
+h2{
+    color:#C71585;
+    text-align: center;
+}
+body{
+    background-color: #FFB6C1;
+}
+fieldset{
+    color: #C71585;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateY(-10%) translateX(-50%)
+}
