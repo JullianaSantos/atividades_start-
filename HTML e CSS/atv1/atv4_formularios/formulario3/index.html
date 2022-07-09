@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="/action_page.html" method="POST">
+        <div class="pai">
+        <div class="header">
+            <h2>Cadastrar Contatos</h2>
+        </div>
+        <div class="inputInfo">
+            <input class="nome" placeholder="Digite o seu Nome" type="text" name="nome">
+            <input class="telefone" placeholder="Digite o seu Telefone" type="number" name="telefone">
+            <input class="endereco" placeholder="Digite o seu Endereço" type="text" name="endereco">
+        </div>
+        <div class="generoPessoa">
+            <div class="genero">
+                <div>
+                    <label class="genero">Selecione o seu gênero:</label><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="feminino" name="genero" value="feminino">
+                    <label for="feminino">Feminino</label><br>
+                    <input type="radio" id="outro" name="genero" value="outro">
+                    <label for="outro">Outro</label>
+                </div>
+
+                <select id="estados">
+                    <option value="">Estado</option>
+                    <option value="acre">Acre (AC)</option>
+                    <option value="alagoas">Alagoas (AL)</option>
+                    <option value="amapa">Amapá (AP)</option>
+                    <option value="amazonas">Amazonas (AM)</option>
+                    <option value="bahia">Bahia (BA)</option>
+                    <option value="ceara">Ceará (CE)</option>
+                    <option value="distrito federal">Distrito Federal (DF)</option>
+                    <option value="espirito santo">Espírito Santos (ES)</option>
+                    <option value="goias">Goiás (GO)</option>
+                    <option value="maranhao">Maranhão (MA)</option>
+                    <option value="mato grosso">Mato Grosso (MT)</option>
+                    <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                    <option value="minas gerais">Minas Gerais (MG)</option>
+                    <option value="para">Pará(PA)</option>
+                    <option value="paraiba">Paraíba (PB)</option>
+                    <option value="parana">Paraná (PR)</option>
+                    <option value="pernambuco">Pernambuco (PE)</option>
+                    <option value="piaui">Piauí (PI)</option>
+                    <option value="rio de janeiro">Rio de Janeiro (RJ)</option>
+                    <option value="rio grande do norte">Rio Grande do Norte (RN)</option>
+                    <option value="rio grande do sul">Rio Grande do Sul (RS)</option>
+                    <option value="rondonia">Rondônia (RO)</option>
+                    <option value="roraima">Roraima (RR)</option>
+                    <option value="santa catarina">Santa Catarina (SC)</option>
+                    <option value="sao paulo">São Paulo (SP)</option>
+                    <option value="sergipe">Sergipe (SE)</option>
+                    <option value="tocantins">Tocantins (TO)</option>
+                </select>
+            </div>
+            <div class="imagem">
+                <img src="https://pubimg.band.uol.com.br/files/135ec8249d479343e8cd.png" alt="Baribaldo">
+                <textarea id="comentario" name="comentario" rows="4" cols="100"> </textarea>
+            </div>
+        </div>
+        <div class="submit">
+            <input id="salvar" type="submit" value="Salvar">
+            <input id="cancelar" type="submit" value="Cancelar">
+        </div>
+        <footer id="sticky-footer" class="sticky-footer">
+            <small> Créditos: Julliana Santos/ Github: DevJulliana</small>
+        </footer>
+        </div> 
+
+</body>
+</form>
+
+</html>

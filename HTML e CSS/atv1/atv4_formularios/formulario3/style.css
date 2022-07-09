@@ -1,0 +1,103 @@
+fieldset{
+    width: 45%;
+    height: 66%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%)
+}
+
+body{
+background-color: antiquewhite;
+}
+
+.nome{
+    background-color: bisque;
+    height: 20;
+   
+    
+}
+.telefone{
+    background-color: bisque;
+}
+.endereco{
+    background-color: bisque;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 3%;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+    margin-top: 3%;
+    resize: none;
+}
+
+#salvar{
+    margin-left: 50%;
+    border-radius: 10%;
+    background-color: bisque;
+}
+#cancelar{
+    border-radius: 10%;
+    background-color: bisque;
+    
+}
+
+footer{
+    color:black;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.pai{
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.header{
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    
+}
+.inputInfo{
+    text-align: center;
+    margin: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.generoPessoa{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 50px;
+}
+.imagem{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.genero{
+    width: 40%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+select{
+    margin-top: 10%;
+    width: 40%;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+}
