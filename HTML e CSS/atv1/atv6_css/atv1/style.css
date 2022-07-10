@@ -1,0 +1,10 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: 'Courier New', Courier, monospace; 
+    font-style: italic;
+}
+.primeiroParagrafo{
+    font-size: 30px;
+}

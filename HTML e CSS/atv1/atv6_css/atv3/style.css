@@ -1,0 +1,16 @@
+.titulo{
+    background-color: green;
+    color:white;
+}
+body{
+    background-color: lightblue;
+   
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 90%;
+    margin-top: 25%;
+    position: fixed;
+}
