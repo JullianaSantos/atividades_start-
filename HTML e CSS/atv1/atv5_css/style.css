@@ -1,0 +1,42 @@
+#titulo{
+    text-align: center;
+}
+.elemenInicio{
+    color:#FFD700;
+}
+.elemenMeioInicio{
+    color:green;
+}
+.elemenFimInicio{
+   background-color: blue;
+   color:white;
+}
+.elemenMeio{
+ color:purple;
+ font-size: 90%;
+ border: 1px solid black;
+}
+p::first-letter{
+    font-size: 30px;
+    color: palevioletred;
+ 
+}
+
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: maroon;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:blue;
+}
+body{
+    position: flex;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
